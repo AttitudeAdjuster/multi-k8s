@@ -12,7 +12,8 @@
             "name": "server",
             "image": "yadjanor/multi_server",
             "hostname": "api",
-            "essential": false
+            "essential": false,
+            "memory": 128
         },        
         {
             "name": "worker",
